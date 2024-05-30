@@ -6,3 +6,17 @@ server:
 logging:
   level:
     org.springframework: debug
+
+spring:
+  message:
+    basename: messages
+#  security:
+#    user:
+#      name: username
+#      password: userpw
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
